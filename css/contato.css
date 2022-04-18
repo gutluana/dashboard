@@ -1,0 +1,73 @@
+ body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to right, rgb(255, 255, 205), rgb(204, 153, 153));
+        }
+        .box{
+            color: rgb(255, 255, 204);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 15px;
+            border-radius: 15px;
+            width: 50%;
+            resize: none;
+        }
+        fieldset{
+            border: 3px solid rgb(144, 131, 151);
+        }
+        legend{
+            border: 1px solid rgb(255, 30, 218);
+            padding: 5px;
+            text-align: center;
+            background-color: rgb(255, 30, 169);
+            border-radius: 8px;
+        }
+        .inputBox{
+            position: relative;
+        }
+        .inputUser{
+            background: none;
+            border: none;
+            border-bottom: 1px solid white;
+            outline: none;
+            color: white;
+            font-size: 15px;
+            width: 100%;
+            letter-spacing: 2px;
+        }
+        .labelInput{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            pointer-events: none;
+            transition: .5s;
+        }
+        .inputUser:focus ~ .labelInput,
+        .inputUser:valid ~ .labelInput{
+            top: -50px;
+            font-size: 15px;
+            color: rgb(255, 30, 199);
+        }
+        #submit{
+            background-image: linear-gradient(to right,rgb(108, 0, 197), rgb(108, 0, 197));
+            width: 100%;
+            border: none;
+            padding: 15px;
+            color: white;
+            font-size: 15px;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        #submit:hover{
+            background-image: linear-gradient(to right,rgb(152, 0, 172), rgb(80, 19, 195));
+        }
+        #mensagem{
+            border: none;
+            position: relative;
+            resize: none;
+            width: 730px; 
+            height: 150px;
+            
+        }
