@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a73uq-7ehj5.jpg" alt="https://s4.aconvert.com/convert/p3r68-cdx67/a73uq-7ehj5.jpg">
+    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/at0x3-blk0s.jpg" alt="https://s4.aconvert.com/convert/p3r68-cdx67/at0x3-blk0s.jpg">
 </h1>
 
 
