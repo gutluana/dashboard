@@ -46,7 +46,7 @@
 <!-- inclui a cdn do chart.js-->
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
           <div>
-               <canvas id="myChart" width="1200px" height="300px"></canvas>
+               <canvas id="myChart" width="600px" height="200px"></canvas>
           </div>
           <script>
      
@@ -77,6 +77,39 @@
           
                const myChart = new Chart(document.getElementById('myChart'),config);      
           </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js" integrity="sha512-OD9Gn6cAUQezuljS6411uRFr84pkrCtw23Hl5TYzmGyD0YcunJIPSBDzrV8EeCiFxGWWvtJOfVo5pOgB++Jsag==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<div>
+  <canvas id="myChart"></canvas>
+</div>
+google.charts.load('current' , {'packages': ['corechart']});
+
+google.charts.setOnLoadCallback( drawChart );
+
+
+function drawChart(){
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Resposta');
+    data.addColumn('number', 'Número');
+    
+    data.addRows(
+        [
+            ['Sim' , 78  ],
+            ['Sim em vermelho' , 178 ]
+        ]            
+    );
+
+    var options = {'title':'Você gosta do Boteco Digital?',
+                   'width':500,
+                   'height':350,
+                   colors: ['#3366CC', '#DC3912']
+                   };
+
+    var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+    chart.draw(data, options);
+}
+        
+
 
 <div class="container-fluid">
 
