@@ -4,7 +4,7 @@
 
 
 ## Introdução
->O objetivo deste dashboard é mostrar os dados relacionados ao covid de quantas pessoas tomaram a vacina ate o presente momento de 2022
+  > O objetivo deste dashboard é visualizar e analisar as informações relacionadas a vacinação contra o covid-19 no Brasil. Inclusos dados sobre a 1ª, 2ª e 3ª dose.
 
 
 ### Ajustes e melhorias
