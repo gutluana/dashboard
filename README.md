@@ -37,7 +37,7 @@
       <td align="center">
         <a href="#">
             <img src="https://s4.aconvert.com/convert/p3r68-cdx67/airy7-zn81v.jpg" width="150px;" alt="Foto da Aline"> 
-            <br>
+            <br> 
             <sub>
                 <b>Aline Jardim</b>
             </sub
