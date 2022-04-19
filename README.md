@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/at0x3-blk0s.jpg" alt="https://s4.aconvert.com/convert/p3r68-cdx67/at0x3-blk0s.jpg " width="200px;">
+    <img src="img/logo.png" width="200px;">
 </h1>
 
 
@@ -36,8 +36,8 @@
       </a>
       <td align="center">
         <a href="#">
-            <img src="https://s4.aconvert.com/convert/p3r68-cdx67/airy7-zn81v.jpg" width="150px;" alt="Foto da Aline"> 
-            <br> 
+            <img src="img/aline.jpeg" width="130px;" alt="Foto da Aline"> 
+            <br>
             <sub>
                 <b>Aline Jardim</b>
             </sub
